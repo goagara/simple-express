@@ -30,7 +30,7 @@ jobs:
           port: 22
           script: |
             sudo su
-            cd /home/goagarateam
+            cd /home/goagarateam/simple-express
             git pull origin master
             git status
             npm install --only=prod
