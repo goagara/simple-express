@@ -6,7 +6,7 @@ const app = express();
 app.get('/', (req, res) => {
   res.json({
     status: 'OK',
-    message: 'Simple Express and Hello There',
+    message: 'Simple Express and Hello There Update',
   });
 });
 
