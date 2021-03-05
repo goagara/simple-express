@@ -27,6 +27,7 @@ app.get('/', (req, res) => {
     message:
       'Simple Express and Hello There Update, turn this into more complicated',
     update: 'I already connected to the database',
+    updatev1: 'New update version 1 coming sooon',
   });
 });
 
